@@ -29,20 +29,20 @@ html {
 }
 
 .navbar-menu{
-  display: none;
+  display: block;
 }
 
 @media screen and (max-width: 600px){
   .navbar-menu{
-      display: block;
+      display: none;
   }
 }
 .navbar-burger{
-  display: block;
+  display: none;
 }
 
 @media screen and (min-width: 600px){
   .navbar-burger{
-      display: none;
+      display: block;
   }
 }
