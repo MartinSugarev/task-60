@@ -33,14 +33,17 @@ html {
 }
 
 .navbar-burger{
-  display: none;
+  display: block;
 }
-@media screen and (max-width: 600px){
+@media  screen and (max-width: 600px){
   .navbar-menu{
       display: none;
   }
+}
+
+@media  screen and (min-width: 600px){
   .navbar-burger{
-      display: block;
+      display: none;
   }
 }
 
